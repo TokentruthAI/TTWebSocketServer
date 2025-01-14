@@ -1,0 +1,29 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "description": "A WebSocket server for token and trade data processing",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.12",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
